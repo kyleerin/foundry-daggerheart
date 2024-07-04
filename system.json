@@ -1,0 +1,46 @@
+{
+  "id": "daggerheart",
+  "title": "Daggerheart",
+  "description": "The Daggerheart system for FoundryVTT!",
+  "authors": [
+    {
+      "name": "Kyle"
+    }
+  ],
+  "url": "https://github.com/kyleerin/foundry-daggerheart",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/kyleerin/foundry-daggerheart/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/daggerheart/assets/anvil-impact.png",
+      "thumbnail": "systems/daggerheart/assets/anvil-impact.png"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 11,
+    "verified": "11.315"
+  },
+  "esmodules": ["module/daggerheart.mjs"],
+  "styles": ["css/daggerheart.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "https://github.com/kyleerin/foundry-daggerheart/system.json",
+  "download": "This must link to a .zip file of the current version",
+  "background": "systems/daggerheart/assets/anvil-impact.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
+}
