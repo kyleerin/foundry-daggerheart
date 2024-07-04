@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["PC", "NPC"],
+    "types": ["character", "npc"],
     "templates": {
       "base": {
         "health": {
@@ -25,22 +25,22 @@
       },
       "abilities": {
         "agi": {
-          "value": 10
+          "value": 0
         },
         "str": {
-          "value": 10
+          "value": 0
         },
         "fin": {
-          "value": 10
+          "value": 0
         },
         "ins": {
-          "value": 10
+          "value": 0
         },
         "pre": {
-          "value": 10
+          "value": 0
         },
         "kno": {
-          "value": 10
+          "value": 0
         }
       }
     },
@@ -60,7 +60,7 @@
       "templates": ["base"],
       "quantity": 1,
       "weight": 0,
-      "formula": "2d12 + @str.mod + ceil(@lvl / 2)"
+      "formula": "2d12 + @str.mod"
     },
     "feature": {
       "templates": ["base"]
