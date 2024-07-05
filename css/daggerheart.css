@@ -157,11 +157,7 @@
 .grid-span-12 {
   grid-column-end: span 12;
 }
-.flex-group-center-align-left {
-  align-items: flex-start;
-  justify-content: center;
-  text-align: center;
-}
+
 .flex-group-center,
 .flex-group-left,
 .flex-group-right {
@@ -207,6 +203,28 @@
   text-align: center;
 }
 
+.label-input-one-line-container {
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.label-input-one-line-container label {
+  flex: 0 0 20px;
+  margin-right: 10px;
+}
+.label-input-one-line-container input {
+  flex: 1;
+}
+
+.flex-container-center {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap, 10px);
+  align-items: flex-start;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
 /* Styles limited to daggerheart sheets */
 .daggerheart .item-form {
   font-family: "Roboto", sans-serif;
@@ -238,6 +256,20 @@
   width: 100%;
   height: 100%;
   margin: 0;
+}
+.daggerheart .threshold-container {
+  display: flex;
+  align-items: center;
+}
+.daggerheart .threshold-container label {
+  flex: 0 0 20px;
+  margin-right: 10px;
+}
+.daggerheart .threshold-container input {
+  flex: 1;
+  max-width: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .daggerheart .sheet-tabs {
   flex: 0;

@@ -6,7 +6,12 @@
         "health": {
           "value": 6,
           "min": 0,
-          "max": 6
+          "max": 6,
+          "threshold": {
+            "minor": 1,
+            "major": 5,
+            "severe": 10
+          }
         },
         "stress": {
           "value": 6,
@@ -52,7 +57,10 @@
     },
     "npc": {
       "templates": ["base"],
-      "cr": 0
+      "tier": 0,
+      "type": "standard",
+      "difficulty": 10,
+      "attack": ""
     }
   },
   "Item": {

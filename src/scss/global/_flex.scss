@@ -44,3 +44,26 @@
   justify-content: center;
   text-align: center;
 }
+
+.label-input-one-line-container {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  label {
+    flex: 0 0 20px;
+    margin-right: 10px;
+  }
+  input {
+    flex: 1;
+    //max-width: 50px;
+  }
+}
+
+.flex-container-center {
+  display: flex;
+  flex-direction: row;
+  gap: var(--gap, 10px);
+  align-items: flex-start;
+  text-align: left;
+  flex-wrap: wrap;
+}
