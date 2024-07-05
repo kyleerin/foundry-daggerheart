@@ -157,7 +157,11 @@
 .grid-span-12 {
   grid-column-end: span 12;
 }
-
+.flex-group-center-align-left {
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
 .flex-group-center,
 .flex-group-left,
 .flex-group-right {

@@ -25,22 +25,28 @@
       },
       "abilities": {
         "agi": {
-          "value": 0
+          "value": 0,
+          "skills": ["sprint", "dodge", "leap"]
         },
         "str": {
-          "value": 0
+          "value": 0,
+          "skills": ["lift", "smash", "grapple"]
         },
         "fin": {
-          "value": 0
+          "value": 0,
+          "skills": ["control", "hide", "tinker"]
         },
         "ins": {
-          "value": 0
+          "value": 0,
+          "skills": ["perceive", "sense", "navigate"]
         },
         "pre": {
-          "value": 0
+          "value": 0,
+          "skills": ["charm", "perform", "deceive"]
         },
         "kno": {
-          "value": 0
+          "value": 0,
+          "skills": ["recall", "analyze", "comprehend"]
         }
       }
     },
