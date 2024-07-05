@@ -141,3 +141,7 @@ function rollItemMacro(itemUuid) {
     item.roll();
   });
 }
+
+window.reset = function() {
+  location.href = '/game';
+}
