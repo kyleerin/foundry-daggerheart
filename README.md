@@ -1,7 +1,8 @@
 # Daggerheart System
 
-![Foundry v11](https://img.shields.io/badge/foundry-v11-green)
+**A work in progress, not fully functional yet!**
 
+![Foundry v11](https://img.shields.io/badge/foundry-v11-green)
 This system is a daggerheart system that you can use as a starting point for building your own custom systems. It's similar to Simple World-building, but has examples of creating attributes in code rather than dynamically through the UI.
 
 ## Usage
